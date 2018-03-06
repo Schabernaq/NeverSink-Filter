@@ -2426,6 +2426,7 @@ Show # $Gem->T2 %TB-DropOnly-Gem %D5
 	BaseType "Detonate Mines" "Added Chaos Damage" "Vaal" "Enhance"
 	SetFontSize 40
 	SetBorderColor 30 150 180 150        # BORDERCOLOR:	 T2 Gems
+	PlayAlertSound 2 300
 
 Hide # $Gem %H2
 	Class Gems
@@ -2926,16 +2927,16 @@ Show #$Currency->Net->T1
 
 Show #$Currency->Net->T2
 	Class Currency
-	BaseType "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
-	SetFontSize 42
+	BaseType "Reinforced Steel Net" "Strong Steel Net"
+	SetFontSize 36
 	SetTextColor 155 210 135 255
 	SetBorderColor 0 255 36 255
 	SetBackgroundColor 0 0 0 255
 
 Show #$Currency->Net->T3
 	Class Currency
-	BaseType "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net"
-	SetFontSize 42
+	BaseType "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net"
+	SetFontSize 24
 	SetTextColor 155 210 135 255
 	SetBorderColor 220 220 220 255
 	SetBackgroundColor 0 0 0 255
@@ -2943,7 +2944,7 @@ Show #$Currency->Net->T3
 Show #$Currency->Net->T4
 	Class Currency
 	BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net"
-	SetFontSize 42
+	SetFontSize 20
 	SetTextColor 155 210 135 255
 	SetBorderColor 0 0 0
 	SetBackgroundColor 0 0 0 255
