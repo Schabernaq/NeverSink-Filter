@@ -859,7 +859,7 @@ Show # $EGC->86->T1 %D5
 #------------------------------------
 # This section handles the crafting bases for the entry level endgame
 
-Hide # $Jewels->Magic %H2
+Show # $Jewels->Magic %H2
 	Class Jewel
 	Rarity <= Magic
 	SetFontSize 40
