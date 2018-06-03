@@ -2921,9 +2921,9 @@ Show #$Currency->Net->T1 %H5
 	SetBackgroundColor 213 159 0 255     # BACKGROUND:	 T3 Currency
 	PlayAlertSound 2 300                 # DROPSOUND:	 Value Drop: Currency, fragments
 
-Hide #$Currency->Net->T1 %H4
+Show #$Currency->Net->T1 %H4
 	Class Currency
-	BaseType "Thaumaturgical Net"
+	BaseType "Thaumaturgical Net" "Strong Steel Net"
 	SetFontSize 45
 	SetTextColor 155 210 135 255         # TEXTCOLOR:	 Net Color
 	SetBorderColor 0 255 36 255          # BORDERCOLOR:	 Net Color 4
@@ -2932,7 +2932,7 @@ Hide #$Currency->Net->T1 %H4
 
 Hide #$Currency->Net->T2 %H3
 	Class Currency
-	BaseType "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
+	BaseType "Simple Steel Net" "Reinforced Steel Net"
 	SetFontSize 42
 	SetTextColor 155 210 135 255         # TEXTCOLOR:	 Net Color
 	SetBorderColor 0 120 16 255          # BORDERCOLOR:	 Net Color 3
